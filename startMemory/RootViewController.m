@@ -90,8 +90,10 @@ void addNumber(Sumsum* instance, int number){
 }
 @end
 
-
-
+//-----------------------------
+//      develop another 클래스 xx
+//-----------------------------
+//이건 3번째 브랜치 줄기입니다.( developAnother)
 
 
 //-----------------------------
