@@ -109,6 +109,7 @@ void addNumber(Sumsum* instance, int number){
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //여기부터 주석달기 시작할 필요 있다!
     
     //sum retain test
     
