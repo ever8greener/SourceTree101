@@ -93,6 +93,7 @@ void addNumber(Sumsum* instance, int number){
 //-----------------------------
 //      2 번째와 3번째 브랜치 합친 부분임.
 //      develop + developAnother
+//      ...쩜만 추가함..왜냐면 xcuser 파일과.break point 삭제했음.
 //-----------------------------
 
 
