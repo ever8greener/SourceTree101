@@ -90,8 +90,10 @@ void addNumber(Sumsum* instance, int number){
 }
 @end
 
-
-
+//-----------------------------
+//      nothing 클래스
+//-----------------------------
+// nothing has been really happend..( i'm in develop branch)
 
 
 //-----------------------------
