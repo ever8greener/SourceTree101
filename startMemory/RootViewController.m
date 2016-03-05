@@ -89,8 +89,27 @@ void addNumber(Sumsum* instance, int number){
 }
 @end
 
+//-----------------------------
+//      family 클래스 on Saturday
+//-----------------------------
+#pragma mark - family 클래스
+@interface Family : NSObject{
+    int sum;
+    NSString* name;
+}
+@property (copy) NSString* name;
+@end
 
+@implementation Family
+@synthesize name;
 
+- (int)sumFamily{
+    return sum;
+}
+- (void)setSum:(int)number{
+    sum = number;
+}
+@end
 
 
 //-----------------------------
