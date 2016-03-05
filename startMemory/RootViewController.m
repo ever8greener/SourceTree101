@@ -122,14 +122,14 @@ void addNumber(Sumsum* instance, int number){
     [sumS setName:strName];
     
     printf("[주소]\nname:%p \nsumR:%p \nsumS:%p",strName,[sumR name],[sumS name]);
-    printf("\nretaincount: %d\n",[strName retainCount]);
+    printf("\n retaincount: %d\n",[strName retainCount]);
     
     //1차 테스트
     
     Sumsum *sumX =[[Sumsum alloc]init];
     Sumsum *sumY =[[Sumsum alloc]init];
     
-    addNumber(sumX, 1); //외부함수???p143
+    addNumber(sumX, 1); //외부함수???p143  //함수포인터,integer 가 파라미터임.
     addNumber(sumY, 1);
     addNumber(sumX, 1);
 //    [sumX addNumber:2];
