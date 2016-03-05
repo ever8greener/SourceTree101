@@ -91,9 +91,9 @@ void addNumber(Sumsum* instance, int number){
 @end
 
 //-----------------------------
-//      nothing 클래스
+//      2 번째와 3번째 브랜치 합친 부분임.
+//      develop + developAnother
 //-----------------------------
-// nothing has been really happend..( i'm in develop branch)
 
 
 //-----------------------------
