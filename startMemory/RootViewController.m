@@ -103,12 +103,7 @@ void addNumber(Sumsum* instance, int number){
 @implementation Family
 @synthesize name;
 
-- (int)sumFamily{
-    return sum;
-}
-- (void)setSum:(int)number{
-    sum = number;
-}
+//famaily 구현부분 다시 삭제함.
 @end
 
 
