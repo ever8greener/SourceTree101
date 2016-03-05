@@ -116,7 +116,7 @@ void addNumber(Sumsum* instance, int number){
     SumRetain *sumS = [[SumRetain alloc]init]  ;
     
     //NSString* strName = @"HahaName";
-    NSString* strName = [NSMutableString stringWithFormat:@"HahaName"];
+    NSString* strName = [NSMutableString stringWithFormat:@"My Name is mutableString (stringWithFmt사용)"];//saturday branch에서 작성중임.
     
     [sumR setName:strName];
     [sumS setName:strName];
