@@ -121,7 +121,7 @@ void addNumber(Sumsum* instance, int number){
     [sumR setName:strName];
     [sumS setName:strName];
     
-    printf("[addr]\nname:%p \nsumR:%p \nsumS:%p",strName,[sumR name],[sumS name]);
+    printf("[주소]\nname:%p \nsumR:%p \nsumS:%p",strName,[sumR name],[sumS name]);
     printf("\nretaincount: %d\n",[strName retainCount]);
     
     //1차 테스트
