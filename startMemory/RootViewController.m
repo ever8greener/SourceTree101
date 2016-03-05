@@ -48,7 +48,6 @@
 }
 @end
 
-
 //void addNumber(int number){
 //    
 //    sum  = sum + number;
@@ -67,7 +66,7 @@ void addNumber(Sumsum* instance, int number){
 
 
 //-----------------------------
-//      썸 클래스
+//      썸 클래스 - 2버전
 //-----------------------------
 #pragma mark - 썸 클래스
 @interface SumRetain : NSObject{
